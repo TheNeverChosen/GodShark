@@ -1,0 +1,27 @@
+.header{
+  width: 100%;
+  height: 50px;
+  background-color: #1a1a1a;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .header-link{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.header .header-link span{
+  font-size: 18px;
+}
+
+.header .header-link img{
+  box-sizing: border-box;
+  vertical-align: middle;
+  height: 70%;
+  margin-left: 8px;
+}

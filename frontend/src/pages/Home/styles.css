@@ -1,0 +1,12 @@
+.link-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*margin-top: 40px;*/
+  color: #41414D;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+  background: red;
+}

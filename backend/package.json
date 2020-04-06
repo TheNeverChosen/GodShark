@@ -1,0 +1,29 @@
+{
+  "name": "godshark-backend",
+  "version": "1.0.0",
+  "description": "GodShark's app backend",
+  "main": "index.js",
+  "author": "TheNeverChosen",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "undo": "sequelize db:migrate:undo:all",
+    "do": "sequelize db:migrate",
+    "status": "sequelize db:migrate:status"
+  },
+  "dependencies": {
+    "argon2": "^0.26.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "open-graph-scraper": "^3.6.2",
+    "sequelize": "^5.21.5",
+    "sqlite3": "^4.1.1",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1"
+  }
+}
